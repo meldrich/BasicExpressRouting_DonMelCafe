@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu | Don Mel Cafe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="/">Don Mel Cafe</a>
+      <nav aria-label="Main">
+        <a href="/">Home</a>
+        <a href="/menu" aria-current="page">Menu</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="page-head">
+      <h1>The menu</h1>
+      <p>Prices are in Philippine pesos.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Filter menu by category">
+      <button class="chip active" data-category="">All</button>
+      <button class="chip" data-category="espresso">Espresso</button>
+      <button class="chip" data-category="milk">Milk drinks</button>
+      <button class="chip" data-category="cold">Cold</button>
+      <button class="chip" data-category="pastry">Pastries</button>
+    </div>
+    <div id="menu-list" class="menu-grid" aria-live="polite">
+      <p class="status">Loading the menu...</p>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Don Mel Cafe. Open daily, 7 AM to 9 PM.</p>
+      <p>Brewed slowly, served warm.</p>
+    </div>
+  </footer>
+  <script src="/js/menu.js"></script>
+</body>
+</html>

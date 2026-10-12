@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Don Mel Cafe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="/">Don Mel Cafe</a>
+      <nav aria-label="Main">
+        <a href="/">Home</a>
+        <a href="/menu">Menu</a>
+        <a href="/about">About</a>
+        <a href="/contact" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="page-head">
+      <h1>Contact us</h1>
+      <p>Questions, catering, or a table for a group? Send a note and we will reply within a day.</p>
+    </div>
+    <div class="contact-grid">
+      <form id="contact-form">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button class="btn" type="submit">Send message</button>
+        <p id="form-status" class="status" role="status"></p>
+      </form>
+      <aside class="info">
+        <h2>Visit</h2>
+        <p>Don Mel Cafe<br>Open daily, 7 AM until 9 PM</p>
+        <h2>Reach us</h2>
+        <p>donmelcafe@gmail.com<br>0908 619 0328</p>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Don Mel Cafe. Open daily, 7 AM to 9 PM.</p>
+      <p>Brewed slowly, served warm.</p>
+    </div>
+  </footer>
+  <script src="/js/contact.js"></script>
+</body>
+</html>
